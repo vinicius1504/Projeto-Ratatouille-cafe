@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ratatouille Café</title>
+
+  <link rel="shortcut . icon" href="images/favicon.ico">
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--google fonts-->
+<link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Montserrat:wght@300;400;500;700;900&family=Ubuntu&display=swap" rel="stylesheet">
+
+<!-- Bootstrap + CSS Stylesheets -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<link rel="stylesheet" href="css/style.css">
+<!-- Bootstrap Scripts -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <!--Navebar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#cabeca">Ratatouille Café</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#cabeca">Pagina inicial <span class="sr-only">(Pagina atual)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#menu">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#sobre">Sobre nós</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Contato
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#formulario">Deixe sua mensagem</a>
+            <a class="dropdown-item" href="#localização">Onde estamos</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+<!--Cabecalho-->
+  <div id="cabeca" class="rosto alarga-div">
+        <h1 id="tx1" class="txall"><span style="color: rgb(5, 223, 201);font-size: 170px;">R</span>atatouille Café</h1>
+  </div>
+
+    <div id="menu" class="rosto alarga-div"  >
+          <h1 id="titulo-menu" class="txall">Menu</h1>
+                            <div class="tabela">
+          <table id="tabela-menu" class="table table-borderless">
+    <thead class="thead-dark">
+        <tr>
+          <th scope="col"></th>
+          <th scope="col">Prato</th>
+          <th scope="col">Descrisção</th>
+          <th scope="col">Preço</th>
+        </tr>
+    </thead>
+
+    <tbody>
+          <tr>
+            <th scope="row"></th>
+            <td>Panquecas</td>
+            <td>Duas panquecas de massa fina, recheadas ao gosto do cliente</td>
+            <td>12,00</td>
+          </tr>
+          <tr>
+						<th scope="row"></th>
+						<td>Croissant</td>
+						<td>Salgado recheado assado com ervas finas</td>
+						<td>6,90</td>
+					</tr>
+					<tr>
+						<th scope="row"></th>
+						<td>Pão da casa</td>
+						<td>Fatia de pão da casa com azeite importado</td>
+						<td>4,50</td>
+					</tr>
+					<tr>
+						<th scope="row"></th>
+						<td>Café Expresso</td>
+						<td>Café expresso simples com a magia do Ratatouille Café</td>
+						<td>2,00</td>
+					</tr>
+		
+        </tbody>
+
+  </table>
+      </div>
+    </div>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/coffee.jpg" class="d-block w-100" alt="imagem parede de café">
+      </div>
+      <div class="carousel-item">
+        <img src="images/servindocafe.jpg" class="d-block w-100" alt="imagen d pessoa servindo cafe">
+      </div>
+      <div class="carousel-item">
+        <img src="images/tompero.jpg" class="d-block w-100" alt="imagem de tempeiro">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Proximo</span>
+    </a>
+  </div>
+  
+  <div class="rosto">
+
+  <h1 class="txall" id="sobre">Nossa Historia</h1>
+
+<p id="texto-descricao">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+  aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+  voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+  occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+  anim id est laborum.</p>
+  
+<img src="images/baristas.jpg" alt="" class="imagem-direita">
+ <img src="images/fazendopao.jpg" alt=""class="imagem-esquerda">
+ <img src="images/baristas.jpg" alt="" class="imagem-direita"> 
+</div>
+
+<div id="contato" class="rosto">
+    <div id="formulario">
+      <h1 class="titulos-formularios">Fale conosco! Queremos te ouvir</h1>
+      
+      <form action="mailto:vgbl1504@gmail.com"> 
+        <div class="form-group">
+          <label for="Nome" class="texto-formulario">Seu nome</label>
+          <textarea class="form-control" id="Nome de usuario" rows="3" placeholder="Seu nome aqui..."></textarea>
+        </div>
+        <div class="form-group">
+          <label for="email" class="texto-formulario">Endereço de email</label>
+          <input type="email" class="form-control" id="email-remetente" placeholder="email@gmail.com">
+        </div>
+        <div class="form-group">
+          <label for="mensagem" class="texto-formulario">Deixe sua mensagem</label>
+          <textarea class="form-control" id="Nome de usuario" rows="3" placeholder="Sua mensagem aqui..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary mb-2">Enviar mensagem</button>
+      </form>
+<div id="localização">
+<p class="texto-formulario"> Se preferir, você pode enviar e-mail para blablabla@blabla.com ou nos fazer uma visita.</p>
+<iframe id="mapa-localizacao"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.2836615805204!2d-43.462312149575915!3d-23.01335478488384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bdd37283fc0bb%3A0xb6396290b72ca36!2sParis%20Caf%C3%A9%20Club!5e0!3m2!1spt-BR!2sbr!4v1602202418159!5m2!1spt-BR!2sbr" width="640" height="480" ></iframe><p class="texto-formulario"> Website desenvolvido por Vinicius Gabriel ©</p>
+
+
+</div>
+</div>
+</div>
+
+
+  
+</body>
+</html>

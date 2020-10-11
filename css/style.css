@@ -1,0 +1,201 @@
+html{
+    scroll-behavior: smooth;
+  }
+
+body{font-family: "Montserrat";
+font-weight: 400;}
+
+::selection{
+    color: #FFDFD3;
+}
+
+
+::-moz-selection{
+color: #FFDFD3;
+
+}
+#cabeca{
+background-image: url(../images/mesas.jpg);
+height: 100%;
+background-size: cover;
+}
+
+.rosto {
+    padding-top: 8%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.alarga-div{
+padding-bottom: 35%;
+}
+
+#contato{
+padding-bottom: 1%;
+background-color: #343a40;
+}
+
+#formulario{
+background-color: #343a40;
+padding-left: 10%;
+padding-right: 10%;
+
+
+}
+
+/* textos */
+#tx1 {
+color: bisque;
+text-shadow: 2px 1px 2px black;
+}
+
+.txall {
+font-size: 125px;
+text-align: center;
+font-family: 'Bad Script', cursive;
+}
+
+
+#titulo-menu{
+    padding-right: 65px;
+    color: #F0F8FF
+}
+
+#texto-descricao{
+font-size: 140%;
+padding-top: 1%;
+padding-left: 5%;
+padding-right: 30%;
+text-align: justify;
+}
+
+.titulos-formularios{
+font-family: 'Montserrat' !important;
+color: #eaedf0;
+font-size: 200%;
+}
+
+.texto-formulario{
+font-family: 'Montserrat' !important;
+color: #d3d3d3;
+font-size: 120%;
+
+}
+
+
+/*navebar*/
+
+.navbar{
+padding: 25%;
+}
+
+.navbar-brand{
+    font-family: "Bad Script" , cursive;
+    padding: 1px;
+    font-size: 2.5rem;
+}
+
+.nav-item{
+    padding: 0 19px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 300;
+}
+
+.dropdown-item:active{
+    background-color: transparent;
+
+
+}
+
+/*menu*/
+#menu{
+background-image: url("../images/churros.jpg");
+height: 110%;
+background-size: cover;
+}
+
+table{
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    border-collapse: collapse;
+    width: 40%;
+}
+
+.tabela{
+    padding-right: 10%;
+    padding-left: 10%;
+
+}
+
+tr:hover{
+    background-color: #343a40;
+  }
+
+  td, th{
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    background-color: rgba(192, 192, 192, 0.6);
+    text-align: left;
+    padding: 15px;
+  }
+
+  
+  /*carrosel*/
+  .imagem-direita{
+margin-left: 50%;
+padding-right: 7%;
+background-color: #ffdfd3;
+width: 50%;
+
+  } 
+
+  .imagem-esquerda{
+padding-left: 7%;
+background-color: #ffc458;
+width: 50%;
+
+  }
+
+  .imagem-esquerda:hover, .imagem-direita:hover{
+background-color: white;
+
+
+  }
+
+  /*botoes*/
+
+  .btn-primary{
+color: white;
+background-color: #008800;
+border: none;
+  }
+
+  .btn-primary:hover{
+background-color: #ffc458;
+
+  }
+
+  /*mapas*/
+
+  #localização{
+background-color: #343a40;
+padding-top: 2%;
+}
+
+@media (max-width: 780px){
+#mapa-localizacao{
+width: 70%;
+height: 60%;
+margin-left: 10%;
+
+}
+
+
+}
+
